@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+    <link rel="stylesheet" href="quiz_game.css">
+    <title>Math Game</title>
+</head>
+<body>
+    <h3 id="player_1name"></h3><span id="p1score"></span>
+    <h3 id="player_2name"></h3><span id="p2score"></span>
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Guess The Number!</h2>
+            <h3 id="player_que"></h3>
+		    <h3 id="player_ans"></h3>
+            <div id="output" class="col-lg-6"> </div>
+            <br>
+            <br>
+            <h4>Number 1</h4>
+            <input type="text" id="number1" class="form-control" placeholder="Number 1">
+            <br>
+            <h4>Number 2</h4>
+            <input type="text" id="number2" class="form-control" placeholder="Number 2">
+            <br>
+            <button onclick="send()" class="btn btn-success">Send</button>
+
+            </div>
+    
+        </center>
+    </div>
+    
+<script src="quiz_game_page.js"></script>    
+</body>
+
+</html>
